@@ -4,3 +4,4 @@ if (num % 2) == 0:
     print("O número inserido é \033[94mpar\033[m.")
 else:
     print("O número inserido é \033[91mímpar\033[m.")
+ 
