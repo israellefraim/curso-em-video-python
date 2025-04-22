@@ -1,6 +1,6 @@
 from unidecode import unidecode
 
-frase = str(input("Digite uma frase: ")).strip().upper()
+frase = str(input("Digite uma frase: ")).strip().upper() 
 frase2 = unidecode(frase)
 
 print(f"A letra \033[93mA\033[m aparece \033[97m{frase2.count('A')}\033[m vezes na frase.")
