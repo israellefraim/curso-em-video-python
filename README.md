@@ -3,14 +3,13 @@ Aulas e Exercícios do Mundo I, II e III do Curso em Vídeo Python.
 
 Ótimo ponto! Vamos refazer de forma **completa, mais clara e detalhada**, explicando **não só os formatos (snake_case, etc.)**, mas **também boas práticas de nomes** — como o uso de **verbos em funções**, **nomes significativos**, e estrutura de projeto.
 
+---  
 
 <br>  
 
 ## **Convenções de Nomeação em Python (com Boas Práticas)**
 
 Python segue o **PEP 8** como guia oficial de estilo de código. Abaixo, está o padrão para **variáveis, funções, classes, arquivos, pastas e constantes**, incluindo **dicas semânticas (como usar verbos)**.
-
----
 
 ### 1. 🟩 **Variáveis**
 - **Formato**: `snake_case` (letras minúsculas com underscore)
