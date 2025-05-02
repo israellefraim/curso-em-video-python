@@ -3,11 +3,13 @@ Aulas e Exercícios do Mundo I, II e III do Curso em Vídeo Python.
 
 Ótimo ponto! Vamos refazer de forma **completa, mais clara e detalhada**, explicando **não só os formatos (snake_case, etc.)**, mas **também boas práticas de nomes** — como o uso de **verbos em funções**, **nomes significativos**, e estrutura de projeto.
 
----  
+---
 
-<br>  
-
-## **Convenções de Nomeação em Python (com Boas Práticas)**
+<details><summary>
+  
+  ### **CONVENÇÕES DE NOMEAÇÃO PYTHON (com boas práticas)**
+  
+  </summary>
 
 Python segue o **PEP 8** como guia oficial de estilo de código. Abaixo, está o padrão para **variáveis, funções, classes, arquivos, pastas e constantes**, incluindo **dicas semânticas (como usar verbos)**.
 
@@ -168,14 +170,57 @@ meu_projeto/
 
 ## ✅ RESUMO FINAL
 
-| Elemento         | Formato         | Boa prática                                                                 |
+| Elemento         | Formato         | Boa prática                                                                  |
 |------------------|------------------|-----------------------------------------------------------------------------|
-| Variável         | `snake_case`     | Nome curto, mas claro (substantivo ou adjetivo)                            |
-| Função           | `snake_case`     | Usar verbo no início + descrever a ação                                    |
-| Classe           | `PascalCase`     | Substantivo, nome de entidade ou conceito                                  |
+| Variável         | `snake_case`     | Nome curto, mas claro (substantivo ou adjetivo)                             |
+| Função           | `snake_case`     | Usar verbo no início + descrever a ação                                     |
+| Classe           | `PascalCase`     | Substantivo, nome de entidade ou conceito                                   |
 | Constante        | `ALL_UPPER_CASE` | Valores fixos e imutáveis                                                   |
 | Arquivo .py      | `snake_case`     | Nome simples e descritivo                                                   |
 | Pasta            | `snake_case`     | Nome de domínio funcional (ex: services, models)                            |
 | Método privado   | `_nome()`        | Prefixo `_` indica uso interno                                              |
 | Método especial  | `__nome__()`     | Dunder methods: métodos especiais do Python                                 |
+</details>
 
+<details><summary>
+  
+  ### **COMANDOS (functions, statemants, keywords, data types, etc.)**
+  
+  </summary>
+<br>  
+
+| COMANDO                                | DESCRIÇÃO                                                |
+| -------------------------------------- | -------------------------------------------------------- |
+| `print()`                              | Exibe valores na saída padrão                            |
+| `input()`                              | Lê texto digitado pelo usuário                           |
+| `len()`                                | Retorna o tamanho (nº de itens) de sequências e coleções |
+| `type()`                               | Informa o tipo de um objeto                              |
+| `int()`, `float()`, `str()`            | Convertem valores para inteiro, ponto flutuante e string |
+| `list()`, `dict()`, `tuple()`, `set()` | Criam lista, dicionário, tupla e conjunto                |
+| `range()`                              | Gera sequências de números                               |
+| `open()`                               | Abre arquivo para leitura/escrita                        |
+| `import`                               | Importa módulos e pacotes                                |
+| `def`                                  | Declara função                                           |
+| `class`                                | Declara classe                                           |
+| `if` / `elif` / `else`                 | Estruturas de condição                                   |
+| `for`                                  | Laço de repetição sobre iteráveis                        |
+| `while`                                | Laço de repetição baseado em condição                    |
+| `break`                                | Interrompe um laço                                       |
+| `continue`                             | Pula para a próxima iteração do laço                     |
+| `try` / `except` / `finally`           | Tratamento de exceções                                   |
+| `with`                                 | Gerencia contexto (por exemplo, arquivos)                |
+| `lambda`                               | Função anônima de expressão única                        |
+| `map()`                                | Aplica função a cada item de um iterável                 |
+| `filter()`                             | Filtra itens de um iterável por uma função condicional   |
+| `enumerate()`                          | Itera e retorna par (índice, valor)                      |
+| `zip()`                                | Agrupa iteráveis em tuplas                               |
+| `sorted()`                             | Retorna nova lista ordenada                              |
+| `reversed()`                           | Retorna iterador invertido                               |
+| `sum()`                                | Soma itens de um iterável                                |
+| `min()`, `max()`                       | Encontram valor mínimo e máximo                          |
+| `abs()`                                | Valor absoluto                                           |
+| `isinstance()`                         | Verifica o tipo de objeto                                |
+| `help()`                               | Exibe documentação de objetos                            |
+| `dir()`                                | Lista atributos e métodos de um objeto                   |
+
+</details>
