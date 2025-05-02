@@ -1,8 +1,6 @@
 # 🐍 Curso Básico Python
 Aulas e Exercícios do Mundo I, II e III do Curso em Vídeo Python.
 
-Ótimo ponto! Vamos refazer de forma **completa, mais clara e detalhada**, explicando **não só os formatos (snake_case, etc.)**, mas **também boas práticas de nomes** — como o uso de **verbos em funções**, **nomes significativos**, e estrutura de projeto.
-
 ---
 
 <details><summary>
@@ -193,9 +191,14 @@ meu_projeto/
 | -------------------------------------- | -------------------------------------------------------- |
 | `print()`                              | Exibe valores na saída padrão                            |
 | `input()`                              | Lê texto digitado pelo usuário                           |
+| `#`                                    | Comentário de uma linha                                  |
+| `''' '''`, `""" """`                   | Comentário ou string multilinha                          |
+| `int()`, `float()`, `str()`, `bool`    | Tipos de dados (números, texto, booleano)                |
 | `len()`                                | Retorna o tamanho (nº de itens) de sequências e coleções |
-| `type()`                               | Informa o tipo de um objeto                              |
-| `int()`, `float()`, `str()`            | Convertem valores para inteiro, ponto flutuante e string |
+| `type()`                               | Retorna o tipo de um objeto/variável                     |
+| `[]`                                   | Lista (mutável)                                          |
+| `()`                                   | Tupla (imutável)                                         |
+| `{}`                                   | Dicionário (pares chave-valor)                           |
 | `list()`, `dict()`, `tuple()`, `set()` | Criam lista, dicionário, tupla e conjunto                |
 | `range()`                              | Gera sequências de números                               |
 | `open()`                               | Abre arquivo para leitura/escrita                        |
