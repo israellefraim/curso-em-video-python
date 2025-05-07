@@ -7,4 +7,4 @@ print(list(frase))  # Este código transformará a string em uma lista de caract
 
 dividido = frase.split()
 print(dividido[0])  # Mostra o item 0 da lista
-print(dividido[2][3])  # Pede para mostrar o valor do índice 3 do item 2 da lista
+print(dividido[2][3])  # Mostra o valor do índice 3 do item 2 da lista
