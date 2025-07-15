@@ -4,18 +4,21 @@ se ele quer mostrar mais alguns termos
 O programa encerra quando ele disser que quer mostrar "0 termos"
 '''
 
-quantidade_termos = int(input("Insira a quantidade de termos na PA: "))
-if quantidade_termos < 1:
-    exit()
 primeiro_termo = int(input('Insira o primeiro termo da PA: '))
 razao = int(input('Insira a razão da PA: '))
-fim = primeiro_termo + (razao * (quantidade_termos-1))
 
-print(primeiro_termo, end = " -> ")
+contador = 0
+limitador = 10
+quantidade_termos = 0
 
-while (primeiro_termo < fim):
-    print(primeiro_termo + razao, end = " -> ")
-    primeiro_termo = primeiro_termo + razao
+while (contador < limitador):
+    print(primeiro_termo, end = ' -> ')
+    primeiro_termo += razao
+    contador += 1
+    quantidade_termos += 1
+    if contador == limitador:
+        print('PAUSA')
+        limitador = int(input('\nQuantos termos você quer mostrar a mais? '))
+        contador = 0
 
-
-print('ACABOU')
+print(f'\nACABOU. Progressão finalizada com {quantidade_termos} termos mostrados.')
