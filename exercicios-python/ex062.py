@@ -7,9 +7,8 @@ O programa encerra quando ele disser que quer mostrar "0 termos"
 primeiro_termo = int(input('Insira o primeiro termo da PA: '))
 razao = int(input('Insira a razão da PA: '))
 
-contador = 0
+contador = quantidade_termos = 0
 limitador = 10
-quantidade_termos = 0
 
 while (contador < limitador):
     print(primeiro_termo, end = ' -> ')
