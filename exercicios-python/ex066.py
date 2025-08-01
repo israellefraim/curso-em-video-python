@@ -6,7 +6,7 @@ No final, mostre quantos números foram digitados
 e qual foi a soma entre eles (desconsiderando o flag)
 '''
 
-numero = quantidade = soma = 0
+quantidade = soma = 0
 
 while True:
   numero = int(input('Digite um número inteiro: '))
