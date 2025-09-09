@@ -14,4 +14,4 @@ while True:
   quantidade += 1
   soma += numero
   
-print(f'\nQuantidade de número digitados: {quantidade}\nSoma dos números: {soma')
+print(f'\nQuantidade de número digitados: {quantidade}\nSoma dos números: {soma}')
