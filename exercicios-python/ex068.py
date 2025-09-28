@@ -15,16 +15,16 @@ print("Vamos jogar ímpar ou par!")
 
 while True:
     print("=--=" * 7)
-    escolha_jogador = unidecode(str(input("Escolha ÍMPAR ou PAR: "))).upper().strip()
+    escolha_jogador = unidecode(str(input("Escolha \033[1;91mÍMPAR\033[m ou \033[1;92mPAR\033[m: "))).upper().strip()
 
     if escolha_jogador not in ["IMPAR", "PAR"]:
-        print("Escolha entre 'ÍMPAR' ou 'PAR'!")
+        print("Escolha entre '\033[1;91mÍMPAR\033[m' ou '\033[1;92mPAR\033[m'!")
         continue  # Pula imediatamente para a próxima iteração do loop, no início
-    print("ÍMPAR")
+    print("\033[1;91mÍMPAR\033[m")
     sleep(1)
     print("OU")
     sleep(1)
-    print("PAR!")
+    print("\033[1;92mPAR\033[m!")
     valor_jogador = int(input("Insira um número: "))
     valor_computador = randint(0, 10)
     print(f"Meu número: {valor_computador}")
